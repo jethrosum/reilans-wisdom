@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* vh = viewport height */
+    background-color: #ba0c2f;
+    /* background-image: ;  Get API to pull free images for background every page refresh */
+}
+
+.card {
+    width: 50vh;
+    background-color: white;
+    color:#111111;
+    border-radius: 15px;
+    padding: 30px 30px 35px; /* Top, Right&Left, Bottom */
+    box-shadow: 0 5px 10px rgba(2,2,2,0.5);
+    
+}
+
+.authorArea {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quoteArea {
+    display: flex;
+    text-align: center;
+    padding: 24px;
+}
+
+.date, .author {
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+button {
+    padding: 3px;
+}
+
+button:hover {
+    background-color: #53565a;
+    color: white;
+}
+
+
+
+
