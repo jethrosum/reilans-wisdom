@@ -15,7 +15,7 @@ dateElement.innerHTML = `Here's your daily quote for ${month} ${day}.`;
 
 // Fetch and Display a Random Quote
 function randomQuote() {
-    fetch("https://api.quotable.io/random").then(response => response.json()).then(result => {
+    fetch("http://api.quotable.io/random").then(response => response.json()).then(result => {
         quoteText.innerText = `"` + result.content + `"`;
         authorName.innerText = result.author;
         quoteBtn.innerText = "New Quote";
